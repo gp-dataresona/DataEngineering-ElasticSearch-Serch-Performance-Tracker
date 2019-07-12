@@ -29,9 +29,6 @@ last_added_file = ""
 previous_added_file = ""
 
 
-# TODO -
-# - Change the env variable value for - "subDirToReadFile" back to actual dir
-
 def lambda_handler(event, context):
     test_raw_response = getCurrentRawJsonFile()
     print(test_raw_response.keys())
