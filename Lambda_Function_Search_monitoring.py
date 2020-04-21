@@ -28,6 +28,7 @@ subDirToWriteFile = os.environ["subDirToWriteFile"]
 last_added_file = ""
 previous_added_file = ""
 
+#Scripting based on procedural style
 
 def lambda_handler(event, context):
     test_raw_response = getCurrentRawJsonFile()
